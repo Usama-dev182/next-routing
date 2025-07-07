@@ -23,6 +23,12 @@ export default function Home() {
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
           </li>
+          <li className="tracking-[-.01em] mt-4 text-blue-400">
+            ✨ <strong>Explore the routing demo</strong> at{" "}
+            <a href="/nesting-layout" className="underline hover:text-blue-300">
+              /nesting-layout
+            </a>
+          </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
